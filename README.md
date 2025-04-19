@@ -22,6 +22,10 @@ Compiling, Training, and Evaluating the Model:
 - Optimized Model Three: In this optimization I added another hidden layer and updated neurons to be, in order of layers, 128, 62, 32, and 16. This caused the model to perform sligthly worse. Optimized Model Three: Accuracy = 72.7%, Loss = 0.57.
 
 
+![Model Loss Over Epochs](https://github.com/user-attachments/assets/cbbe9200-3118-4548-9882-c935e2ab0090)
+
+![Model Accuracy Over Epochs](https://github.com/user-attachments/assets/980c9ed4-2e76-4a71-a898-aefe2eaa5afc)
+
 
 Summary: Overall, the model and my 3 attempts at optimization did not achieve the target performance. I chose the optimizations I did based on my understanding of what we learned in class, but now that I've had more practice I can recognize additional opportunities for improvement. For a different model, I'd recommend further increasing hidden layers, increasing the number of values in the bins, and adding more epochs. I also believe that adding back in one or both of the columns removed would increase model performance.I believe that this would increase model performance.
 
